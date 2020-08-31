@@ -5,7 +5,7 @@ public abstract class Car {
 	private String model;
 	private int year;
 	private String color;
-	private int price;
+	private int carPrice;
 	private String regNumber;
 
 	public Car(Brand carBrand, String model, int year, String color, int price, String regNumber) {
@@ -13,7 +13,7 @@ public abstract class Car {
 		this.model = model;
 		this.year = year;
 		this.color = color;
-		this.price = price;
+		this.carPrice = price;
 		this.regNumber = regNumber;
 		newId = newId++;
 	}
@@ -21,7 +21,7 @@ public abstract class Car {
 	@Override
 	public String toString() {
 		return "Car [carBrand=" + carBrand + ", model=" + model + ", year=" + year + ", color=" + color + ", price="
-				+ price + ", regNumber=" + regNumber + "]";
+				+ carPrice + ", regNumber=" + regNumber + "]";
 	}
 
 }
