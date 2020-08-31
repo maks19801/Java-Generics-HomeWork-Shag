@@ -2,7 +2,7 @@
 public class Main {
 
 	public static void main(String[] args) {
-		
+		//hello to everybody
 		MercedesFactory factory = new MercedesFactory();
 		Mercedes mercedes1 = factory.getCar(Brand.MERCEDES,"SLK",2015,"WHITE",2000000,"АА0101IT");
 		Mercedes mercedes2 = factory.getCar(Brand.MERCEDES,"SLK",2005, "RED",900000,"АА7777IT");
